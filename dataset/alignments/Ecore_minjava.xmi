@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ASCII"?>
+<alignment:Alignment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:alignment="alignment">
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EClass"/>
+    <target href="../metamodels/minjava.ecore#//Class"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//ENamedElement/name"/>
+    <target href="../metamodels/minjava.ecore#//NamedElement/name"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EClass/abstract"/>
+    <target href="../metamodels/minjava.ecore#//AbstractableElement/abstract"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EAttribute"/>
+    <target href="../metamodels/minjava.ecore#//Attribute"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EClass"/>
+    <target href="../metamodels/minjava.ecore#//Interface"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EDataType"/>
+    <target href="../metamodels/minjava.ecore#//PrimitiveType"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EPackage"/>
+    <target href="../metamodels/minjava.ecore#//Package"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EOperation"/>
+    <target href="../metamodels/minjava.ecore#//Method"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EParameter"/>
+    <target href="../metamodels/minjava.ecore#//Parameter"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EPackage/eSubpackages"/>
+    <target href="../metamodels/minjava.ecore#//Package/subPackages"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EPackage/eSuperPackage"/>
+    <target href="../metamodels/minjava.ecore#//Package/superPackage"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EClass/eSuperTypes"/>
+    <target href="../metamodels/minjava.ecore#//Class/superClass"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EClassifier/ePackage"/>
+    <target href="../metamodels/minjava.ecore#//DataType/package"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EClass/eStructuralFeatures"/>
+    <target href="../metamodels/minjava.ecore#//Type/attributes"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EClass/eSuperTypes"/>
+    <target href="../metamodels/minjava.ecore#//Interface/superInterfaces"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EClass/eOperations"/>
+    <target href="../metamodels/minjava.ecore#//Type/methods"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EOperation/eParameters"/>
+    <target href="../metamodels/minjava.ecore#//Method/parameters"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//ETypedElement/eType"/>
+    <target href="../metamodels/minjava.ecore#//TypedElement/type"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EEnum"/>
+    <target href="../metamodels/minjava.ecore#//Enumeration"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EEnumLiteral"/>
+    <target href="../metamodels/minjava.ecore#//EnumerationLiteral"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EEnum/eLiterals"/>
+    <target href="../metamodels/minjava.ecore#//Enumeration/literals"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EPackage/eClassifiers"/>
+    <target href="../metamodels/minjava.ecore#//Package/dataTypes"/>
+  </mappings>
+</alignment:Alignment>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ASCII"?>
+<alignment:Alignment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:alignment="alignment">
+  <mappings>
+    <source href="../metamodels/webml.ecore#//Entity"/>
+    <target href="../metamodels/er_ODM.ecore#//Entity"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/webml.ecore#//Attribute"/>
+    <target href="../metamodels/er_ODM.ecore#//Attribute"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/webml.ecore#//Relationship"/>
+    <target href="../metamodels/er_ODM.ecore#//Relationship"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/webml.ecore#//Relationship"/>
+    <target href="../metamodels/er_ODM.ecore#//RelationshipEnd"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/webml.ecore#//Relationship/maxCard"/>
+    <target href="../metamodels/er_ODM.ecore#//RelationshipEnd/maxCardinality"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/webml.ecore#//Relationship/minCard"/>
+    <target href="../metamodels/er_ODM.ecore#//RelationshipEnd/minCardinality"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/webml.ecore#//Entity/superEntity"/>
+    <target href="../metamodels/er_ODM.ecore#//Entity/isA"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/webml.ecore#//Entity/attribute"/>
+    <target href="../metamodels/er_ODM.ecore#//Entity/entityAttribute"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/webml.ecore#//NamedElement/name"/>
+    <target href="../metamodels/er_ODM.ecore#//Relationship/name"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/webml.ecore#//NamedElement/name"/>
+    <target href="../metamodels/er_ODM.ecore#//Attribute/name"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/webml.ecore#//NamedElement/name"/>
+    <target href="../metamodels/er_ODM.ecore#//Entity/name"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/webml.ecore#//Relationship/to"/>
+    <target href="../metamodels/er_ODM.ecore#//RelationshipEnd/entity"/>
+  </mappings>
+</alignment:Alignment>

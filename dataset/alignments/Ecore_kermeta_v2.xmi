@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="ASCII"?>
+<alignment:Alignment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:alignment="alignment">
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EClass"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/Class"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//ENamedElement/name"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/NamedElement/name"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EClass/abstract"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/ClassDefinition/isAbstract"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EClass/eStructuralFeatures"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/ClassDefinition/ownedAttribute"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EClass/eOperations"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/ClassDefinition/ownedOperation"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EClass/eSuperTypes"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/ClassDefinition/superType"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EDataType"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/PrimitiveType"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EEnum"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/Enumeration"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EEnum/eLiterals"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/Enumeration/ownedLiteral"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EEnumLiteral"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/EnumerationLiteral"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EEnumLiteral/eEnum"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/EnumerationLiteral/enumeration"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EModelElement/eAnnotations"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/Object/ownedTags"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EAttribute"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/Property"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//ETypedElement/eType"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/TypedElement/type"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EStructuralFeature/eContainingClass"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/Property/owningClass"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EPackage"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/Package"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EPackage/eSubpackages"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/Package/nestedPackage"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EPackage/eSuperPackage"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/Package/nestingPackage"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EPackage/eClassifiers"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/TypeDefinitionContainer/ownedTypeDefinition"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EReference"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/Property"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EReference/eOpposite"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/Property/opposite"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EString"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/String"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EBoolean"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/Boolean"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EInt"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/Integer"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EOperation"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/Operation"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//ETypedElement/lowerBound"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/MultiplicityElement/lower"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//ETypedElement/upperBound"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/MultiplicityElement/upper"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//ETypedElement/unique"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/MultiplicityElement/isUnique"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//ETypedElement/ordered"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/MultiplicityElement/isOrdered"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EOperation/eParameters"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/Operation/ownedParameter"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EOperation/eExceptions"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/Operation/raisedException"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EOperation/eGenericExceptions"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/Operation/raisedException"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EOperation/eTypeParameters"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/Operation/typeParameter"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EParameter"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/Parameter"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EParameter/eOperation"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/Parameter/operation"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EObject"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/Object"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EAnnotation"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/Tag"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EStructuralFeature/derived"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/Property/isDerived"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EStructuralFeature/defaultValueLiteral"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/Property/default"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EPackage/nsURI"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/Package/uri"/>
+  </mappings>
+</alignment:Alignment>

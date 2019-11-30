@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ASCII"?>
+<alignment:Alignment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:alignment="alignment">
+  <mappings>
+    <source href="../metamodels/minjava.ecore#//Class"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/Class"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/minjava.ecore#//NamedElement/name"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/NamedElement/name"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/minjava.ecore#//AbstractableElement/abstract"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/ClassDefinition/isAbstract"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/minjava.ecore#//Attribute"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/Property"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/minjava.ecore#//TypedElement/type"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/TypedElement/type"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/minjava.ecore#//Method"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/Operation"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/minjava.ecore#//Method/redefinesMethod"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/Operation/superOperation"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/minjava.ecore#//Parameter"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/Parameter"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/minjava.ecore#//AbstractableElement/abstract"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/Operation/isAbstract"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/minjava.ecore#//Interface"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/Class"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/minjava.ecore#//PrimitiveType"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/PrimitiveType"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/minjava.ecore#//Package"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/Package"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/minjava.ecore#//Package/subPackages"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/Package/nestedPackage"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/minjava.ecore#//Package/dataTypes"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/TypeDefinitionContainer/ownedTypeDefinition"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/minjava.ecore#//Package/superPackage"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/Package/nestingPackage"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/minjava.ecore#//Enumeration"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/Enumeration"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/minjava.ecore#//Enumeration/literals"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/Enumeration/ownedLiteral"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/minjava.ecore#//EnumerationLiteral"/>
+    <target href="../metamodels/kermeta.ecore#//language/structure/EnumerationLiteral"/>
+  </mappings>
+</alignment:Alignment>

@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+sourceCompatibility = 8
+
+repositories {
+    mavenCentral()
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    implementation name : 'com.googlecode.exputils'
+    implementation name : 'nlpse'
+    implementation name : 'simmetrics_jar_v1_6_2_d07_02_07'
+    implementation 'org.eclipse.emf:org.eclipse.emf.ecore:2.19.0'
+    implementation 'org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.16.0'
+    testImplementation 'junit:junit:4.12'
+}

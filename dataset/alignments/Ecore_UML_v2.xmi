@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="ASCII"?>
+<alignment:Alignment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:alignment="alignment">
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EPackage"/>
+    <target href="../metamodels/UML.ecore#//Package"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//ENamedElement/name"/>
+    <target href="../metamodels/UML.ecore#//NamedElement/name"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EModelElement/eAnnotations"/>
+    <target href="../metamodels/UML.ecore#//Element/ownedComment"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EAnnotation"/>
+    <target href="../metamodels/UML.ecore#//Comment"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EAnnotation/eModelElement"/>
+    <target href="../metamodels/UML.ecore#//Comment/annotatedElement"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EClass/eOperations"/>
+    <target href="../metamodels/UML.ecore#//Class/ownedOperation"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EClass/eStructuralFeatures"/>
+    <target href="../metamodels/UML.ecore#//StructuredClassifier/ownedAttribute"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EAttribute"/>
+    <target href="../metamodels/UML.ecore#//Property"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//ETypedElement/eType"/>
+    <target href="../metamodels/UML.ecore#//TypedElement/type"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//ETypedElement/lowerBound"/>
+    <target href="../metamodels/UML.ecore#//MultiplicityElement/lowerValue"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//ETypedElement/upperBound"/>
+    <target href="../metamodels/UML.ecore#//MultiplicityElement/upperValue"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//ETypedElement/unique"/>
+    <target href="../metamodels/UML.ecore#//MultiplicityElement/isUnique"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//ETypedElement/ordered"/>
+    <target href="../metamodels/UML.ecore#//MultiplicityElement/isOrdered"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EReference"/>
+    <target href="../metamodels/UML.ecore#//Property"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EClass"/>
+    <target href="../metamodels/UML.ecore#//Class"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EClass/abstract"/>
+    <target href="../metamodels/UML.ecore#//Classifier/isAbstract"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EParameter"/>
+    <target href="../metamodels/UML.ecore#//Parameter"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EParameter/eOperation"/>
+    <target href="../metamodels/UML.ecore#//Parameter/operation"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EOperation"/>
+    <target href="../metamodels/UML.ecore#//Operation"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EOperation/eParameters"/>
+    <target href="../metamodels/UML.ecore#//BehavioralFeature/ownedParameter"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EEnum"/>
+    <target href="../metamodels/UML.ecore#//Enumeration"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EEnum/eLiterals"/>
+    <target href="../metamodels/UML.ecore#//Enumeration/ownedLiteral"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EEnumLiteral"/>
+    <target href="../metamodels/UML.ecore#//EnumerationLiteral"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EEnumLiteral/eEnum"/>
+    <target href="../metamodels/UML.ecore#//EnumerationLiteral/enumeration"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EString"/>
+    <target href="../metamodels/UML.ecore#//String"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EInt"/>
+    <target href="../metamodels/UML.ecore#//Integer"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EBoolean"/>
+    <target href="../metamodels/UML.ecore#//Boolean"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EStructuralFeature"/>
+    <target href="../metamodels/UML.ecore#//StructuralFeature"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//ENamedElement"/>
+    <target href="../metamodels/UML.ecore#//NamedElement"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//ETypeParameter"/>
+    <target href="../metamodels/UML.ecore#//TemplateParameter"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/Ecore.ecore#//EStructuralFeature/derived"/>
+    <target href="../metamodels/UML.ecore#//Property/isDerived"/>
+  </mappings>
+</alignment:Alignment>

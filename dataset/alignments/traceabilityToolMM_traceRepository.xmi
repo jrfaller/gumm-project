@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ASCII"?>
+<alignment:Alignment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:alignment="alignment">
+  <mappings>
+    <source href="../metamodels/traceabilityToolMM.ecore#//TraceRepository"/>
+    <target href="../metamodels/traceRepository.ecore#//TraceRepository"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/traceabilityToolMM.ecore#//Tracelink"/>
+    <target href="../metamodels/traceRepository.ecore#//TraceLink"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/traceabilityToolMM.ecore#//ValueType/name"/>
+    <target href="../metamodels/traceRepository.ecore#//NamedElement/name"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/traceabilityToolMM.ecore#//TraceRepository/name"/>
+    <target href="../metamodels/traceRepository.ecore#//NamedElement/name"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/traceabilityToolMM.ecore#//TraceableArtefactType/name"/>
+    <target href="../metamodels/traceRepository.ecore#//NamedElement/name"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/traceabilityToolMM.ecore#//TraceModel/name"/>
+    <target href="../metamodels/traceRepository.ecore#//NamedElement/name"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/traceabilityToolMM.ecore#//TraceLinkType/name"/>
+    <target href="../metamodels/traceRepository.ecore#//NamedElement/name"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/traceabilityToolMM.ecore#//TraceableArtefact/name"/>
+    <target href="../metamodels/traceRepository.ecore#//NamedElement/name"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/traceabilityToolMM.ecore#//Tracelink/name"/>
+    <target href="../metamodels/traceRepository.ecore#//NamedElement/name"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/traceabilityToolMM.ecore#//TracelinkAttributeType/name"/>
+    <target href="../metamodels/traceRepository.ecore#//NamedElement/name"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/traceabilityToolMM.ecore#//TracelinkAttribute"/>
+    <target href="../metamodels/traceRepository.ecore#//TraceLinkAttribute"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/traceabilityToolMM.ecore#//TraceRepository/usedTraceModel"/>
+    <target href="../metamodels/traceRepository.ecore#//TraceRepository/traceModel"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/traceabilityToolMM.ecore#//TraceRepository/traceableArtefacts"/>
+    <target href="../metamodels/traceRepository.ecore#//TraceRepository/traceableArtefacts"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/traceabilityToolMM.ecore#//TraceRepository/traceLinks"/>
+    <target href="../metamodels/traceRepository.ecore#//TraceRepository/traceLinks"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/traceabilityToolMM.ecore#//Tracelink/source"/>
+    <target href="../metamodels/traceRepository.ecore#//TraceLink/source"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/traceabilityToolMM.ecore#//Tracelink/target"/>
+    <target href="../metamodels/traceRepository.ecore#//TraceLink/target"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/traceabilityToolMM.ecore#//Tracelink/tracelinkType"/>
+    <target href="../metamodels/traceRepository.ecore#//TraceLink/traceLinkType"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/traceabilityToolMM.ecore#//TraceableArtefact"/>
+    <target href="../metamodels/traceRepository.ecore#//TraceableArtefact"/>
+  </mappings>
+</alignment:Alignment>

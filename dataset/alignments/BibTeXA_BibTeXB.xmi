@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="ASCII"?>
+<alignment:Alignment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:alignment="alignment">
+  <mappings>
+    <source href="../metamodels/BibTeXA.ecore#//String"/>
+    <target href="../metamodels/BibTeXB.ecore#//String"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/BibTeXA.ecore#//Integer"/>
+    <target href="../metamodels/BibTeXB.ecore#//Integer"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/BibTeXA.ecore#//Bibtex"/>
+    <target href="../metamodels/BibTeXB.ecore#//BibTeXFile"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/BibTeXA.ecore#//Bibtex/entries"/>
+    <target href="../metamodels/BibTeXB.ecore#//BibTeXFile/entries"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/BibTeXA.ecore#//Article"/>
+    <target href="../metamodels/BibTeXB.ecore#//Article"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/BibTeXA.ecore#//Techreport"/>
+    <target href="../metamodels/BibTeXB.ecore#//TechReport"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/BibTeXA.ecore#//Booklet"/>
+    <target href="../metamodels/BibTeXB.ecore#//Booklet"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/BibTeXA.ecore#//Inproceedings"/>
+    <target href="../metamodels/BibTeXB.ecore#//InProceedings"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/BibTeXA.ecore#//Proceedings"/>
+    <target href="../metamodels/BibTeXB.ecore#//Proceedings"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/BibTeXA.ecore#//Incollection"/>
+    <target href="../metamodels/BibTeXB.ecore#//InCollection"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/BibTeXA.ecore#//PhdThesis"/>
+    <target href="../metamodels/BibTeXB.ecore#//PhDThesis"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/BibTeXA.ecore#//MastersThesis"/>
+    <target href="../metamodels/BibTeXB.ecore#//MasterThesis"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/BibTeXA.ecore#//Manual"/>
+    <target href="../metamodels/BibTeXB.ecore#//Manual"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/BibTeXA.ecore#//Misc"/>
+    <target href="../metamodels/BibTeXB.ecore#//Misc"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/BibTeXA.ecore#//Entry/key"/>
+    <target href="../metamodels/BibTeXB.ecore#//BibTeXEntry/id"/>
+  </mappings>
+</alignment:Alignment>

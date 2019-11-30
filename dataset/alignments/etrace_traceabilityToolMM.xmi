@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<alignment:Alignment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:alignment="alignment">
+  <mappings>
+    <source href="../metamodels/etrace.ecore#//Link"/>
+    <target href="../metamodels/traceabilityToolMM.ecore#//Tracelink"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/etrace.ecore#//AbstractLink/source"/>
+    <target href="../metamodels/traceabilityToolMM.ecore#//Tracelink/source"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/etrace.ecore#//AbstractLink/target"/>
+    <target href="../metamodels/traceabilityToolMM.ecore#//Tracelink/target"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/etrace.ecore#//AbstractLink/type"/>
+    <target href="../metamodels/traceabilityToolMM.ecore#//Tracelink/tracelinkType"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/etrace.ecore#//LinkType"/>
+    <target href="../metamodels/traceabilityToolMM.ecore#//TracelinkType"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/etrace.ecore#//LinkType/name"/>
+    <target href="../metamodels/traceabilityToolMM.ecore#//TracelinkType/name"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/etrace.ecore#//ETrace"/>
+    <target href="../metamodels/traceabilityToolMM.ecore#//TraceRepository"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/etrace.ecore#//ETrace/name"/>
+    <target href="../metamodels/traceabilityToolMM.ecore#//TraceRepository/name"/>
+  </mappings>
+  <mappings>
+    <source href="../metamodels/etrace.ecore#//CompositeLink/children"/>
+    <target href="../metamodels/traceabilityToolMM.ecore#//TraceRepository/traceLinks"/>
+  </mappings>
+</alignment:Alignment>
