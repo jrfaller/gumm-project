@@ -5,6 +5,7 @@ import java.util.Iterator;
 
 import com.googlecode.gumm.graph.LabeledNode;
 import com.googlecode.gumm.graph.ModelGraph;
+import com.googlecode.gumm.graph.ObjectNode;
 import com.googlecode.gumm.graph.ValueNode;
 import com.googlecode.gumm.viz.GraphToDot;
 import org.eclipse.emf.ecore.*;
@@ -156,7 +157,7 @@ public class BasicEcoreImporter extends EcoreImporter {
 		}
 
 
-		LabeledNode n = graph.createValueNode(elementID, ValueNode.TYPE_STRING); //FIXME: maybe object node?
+		ObjectNode n = graph.createObjectNode(elementID, ne,  ValueNode.TYPE_STRING); //FIXME: right handling for type?
 
 		graph.createEdge(n,elementLabelNode,"label");
 
