@@ -1,6 +1,5 @@
 package com.googlecode.gumm.main;
 
-import java.io.IOException;
 import java.util.Map;
 
 import com.googlecode.gumm.flood.*;
@@ -8,6 +7,7 @@ import com.googlecode.gumm.flood.graph.ConnectivityGraph;
 import com.googlecode.gumm.flood.graph.PropagationGraph;
 import com.googlecode.gumm.graph.AdjModelGraph;
 import com.googlecode.gumm.graph.LabeledNode;
+import com.googlecode.gumm.graph.ModelGraph;
 import com.googlecode.gumm.plugins.standard.filters.ThresholdFilter;
 import com.googlecode.gumm.plugins.standard.weights.Product;
 import org.eclipse.emf.ecore.EObject;
@@ -18,27 +18,30 @@ import com.googlecode.gumm.plugins.ecore.importers.*;
 
 public class EcoreFlooderTest {
 	
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) {
 		long t1 = System.currentTimeMillis();
 		
-		String leftP = "./dataset/metamodels/Ecore.ecore";
-		String rightP = "./dataset/metamodels/kermeta.ecore";
+		String leftP = args[0];
+		String rightP = args[1];
 		
 		EcoreImporter leftI = new StandardEcoreImporter(leftP);
 		EcoreImporter rightI = new StandardEcoreImporter(rightP);
+
+		ModelGraph leftG = leftI.getGraph();
+		ModelGraph rightG = rightI.getGraph();
 		
-		AdjModelGraph leftG = leftI.getGraph().toAdjInputGraph();
-		AdjModelGraph rightG = rightI.getGraph().toAdjInputGraph();
+		AdjModelGraph leftAdjG = leftG.toAdjInputGraph();
+		AdjModelGraph rightAdjG = rightG.toAdjInputGraph();
 		
-		System.out.println("Left graph: " + leftG);
-		System.out.println("Right graph: " + rightG);
+		System.out.println("Left graph: " + leftAdjG);
+		System.out.println("Right graph: " + rightAdjG);
 		
 		Map<LabeledNode,EObject> leftE = leftI.getEnvironment();
 		Map<LabeledNode,EObject> rightE = rightI.getEnvironment();
 		
 		System.out.println("Creating connectivity graph.");
-		IdManager idManager = new IdManager(leftG.getNodesNb(), rightG.getNodesNb());
-		ConnectivityGraph cg = new ConnectivityGraph(idManager, leftG,rightG);
+		IdManager idManager = new IdManager(leftAdjG.getNodesNb(), rightAdjG.getNodesNb());
+		ConnectivityGraph cg = new ConnectivityGraph(idManager, leftAdjG,rightAdjG);
 		
 		System.out.println("Connectivity graph: " + cg);
 		
@@ -52,9 +55,9 @@ public class EcoreFlooderTest {
 		//WeightEvaluator w = new Custom(cg,0.2F,weights);
 		
 		System.out.println("Creating propagation graph.");
-		Sigma0Evaluator s = new MunkresEvaluator(leftG,rightG);
+		Sigma0Evaluator s = new MunkresEvaluator(leftAdjG, rightAdjG);
 		
-		PropagationGraph pg = new PropagationGraph(idManager,cg,w,s);
+		PropagationGraph pg = new PropagationGraph(idManager, cg, w, s);
 
 		System.out.println("Propagation graph: " + cg);
 		System.out.println(pg);
