@@ -33,6 +33,7 @@ public class AlignmentToHtml extends CodeGenerator {
 
 	public AlignmentToHtml(Alignment alignment) {
 		this.alignment = alignment;
+		generateCode();
 	}
 
 	public void generateCode() {
