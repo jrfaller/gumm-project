@@ -4,9 +4,9 @@
  *
  * $Id$
  */
-package com.googlecode.gumm.gummecore.impl;
+package com.googlecode.gumm.ecore.impl;
 
-import com.googlecode.gumm.gummecore.*;
+import com.googlecode.gumm.ecore.*;
 
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EObject;

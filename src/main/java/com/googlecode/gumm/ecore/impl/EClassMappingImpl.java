@@ -4,12 +4,12 @@
  *
  * $Id$
  */
-package com.googlecode.gumm.gummecore.impl;
+package com.googlecode.gumm.ecore.impl;
 
-import com.googlecode.gumm.gummecore.EAttributeMapping;
-import com.googlecode.gumm.gummecore.EClassMapping;
-import com.googlecode.gumm.gummecore.EReferenceMapping;
-import com.googlecode.gumm.gummecore.GummecorePackage;
+import com.googlecode.gumm.ecore.EAttributeMapping;
+import com.googlecode.gumm.ecore.EClassMapping;
+import com.googlecode.gumm.ecore.EReferenceMapping;
+import com.googlecode.gumm.ecore.GummecorePackage;
 
 import java.util.Collection;
 
@@ -34,10 +34,10 @@ import org.eclipse.emf.ecore.util.InternalEList;
  * <p>
  * The following features are implemented:
  * <ul>
- *   <li>{@link com.googlecode.gumm.gummecore.impl.EClassMappingImpl#getSource <em>Source</em>}</li>
- *   <li>{@link com.googlecode.gumm.gummecore.impl.EClassMappingImpl#getTarget <em>Target</em>}</li>
- *   <li>{@link com.googlecode.gumm.gummecore.impl.EClassMappingImpl#getEAttributeMappings <em>EAttribute Mappings</em>}</li>
- *   <li>{@link com.googlecode.gumm.gummecore.impl.EClassMappingImpl#getEReferenceMappings <em>EReference Mappings</em>}</li>
+ *   <li>{@link com.googlecode.gumm.ecore.impl.EClassMappingImpl#getSource <em>Source</em>}</li>
+ *   <li>{@link com.googlecode.gumm.ecore.impl.EClassMappingImpl#getTarget <em>Target</em>}</li>
+ *   <li>{@link com.googlecode.gumm.ecore.impl.EClassMappingImpl#getEAttributeMappings <em>EAttribute Mappings</em>}</li>
+ *   <li>{@link com.googlecode.gumm.ecore.impl.EClassMappingImpl#getEReferenceMappings <em>EReference Mappings</em>}</li>
  * </ul>
  * </p>
  *

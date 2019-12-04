@@ -4,13 +4,13 @@
  *
  * $Id$
  */
-package com.googlecode.gumm.gummecore.impl;
+package com.googlecode.gumm.ecore.impl;
 
-import com.googlecode.gumm.gummecore.EClassMapping;
-import com.googlecode.gumm.gummecore.EDataTypeMapping;
-import com.googlecode.gumm.gummecore.EEnumMapping;
-import com.googlecode.gumm.gummecore.EcoreAlignment;
-import com.googlecode.gumm.gummecore.GummecorePackage;
+import com.googlecode.gumm.ecore.EClassMapping;
+import com.googlecode.gumm.ecore.EDataTypeMapping;
+import com.googlecode.gumm.ecore.EEnumMapping;
+import com.googlecode.gumm.ecore.EcoreAlignment;
+import com.googlecode.gumm.ecore.GummecorePackage;
 
 import java.util.Collection;
 
@@ -33,9 +33,9 @@ import org.eclipse.emf.ecore.util.InternalEList;
  * <p>
  * The following features are implemented:
  * <ul>
- *   <li>{@link com.googlecode.gumm.gummecore.impl.EcoreAlignmentImpl#getEClassMappings <em>EClass Mappings</em>}</li>
- *   <li>{@link com.googlecode.gumm.gummecore.impl.EcoreAlignmentImpl#getEEnumMappings <em>EEnum Mappings</em>}</li>
- *   <li>{@link com.googlecode.gumm.gummecore.impl.EcoreAlignmentImpl#getEDataTypeMappings <em>EData Type Mappings</em>}</li>
+ *   <li>{@link com.googlecode.gumm.ecore.impl.EcoreAlignmentImpl#getEClassMappings <em>EClass Mappings</em>}</li>
+ *   <li>{@link com.googlecode.gumm.ecore.impl.EcoreAlignmentImpl#getEEnumMappings <em>EEnum Mappings</em>}</li>
+ *   <li>{@link com.googlecode.gumm.ecore.impl.EcoreAlignmentImpl#getEDataTypeMappings <em>EData Type Mappings</em>}</li>
  * </ul>
  * </p>
  *

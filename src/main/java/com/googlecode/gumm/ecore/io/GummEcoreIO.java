@@ -1,4 +1,4 @@
-package com.googlecode.gumm.gummecore.framework.io;
+package com.googlecode.gumm.ecore.io;
 
 import java.io.File;
 
@@ -9,7 +9,7 @@ import org.eclipse.emf.ecore.resource.ResourceSet;
 import org.eclipse.emf.ecore.resource.impl.ResourceSetImpl;
 import org.eclipse.emf.ecore.xmi.impl.XMIResourceFactoryImpl;
 
-import com.googlecode.gumm.gummecore.GummecorePackage;
+import com.googlecode.gumm.ecore.GummecorePackage;
 
 public class GummEcoreIO {
 	

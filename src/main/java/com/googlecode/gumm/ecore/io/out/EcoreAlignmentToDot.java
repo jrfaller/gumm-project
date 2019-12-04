@@ -1,4 +1,4 @@
-package com.googlecode.gumm.gummecore.framework.io.out;
+package com.googlecode.gumm.ecore.io.out;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -23,10 +23,10 @@ import org.eclipse.emf.ecore.resource.ResourceSet;
 import org.eclipse.emf.ecore.resource.impl.ResourceSetImpl;
 import org.eclipse.emf.ecore.xmi.impl.EcoreResourceFactoryImpl;
 
-import com.googlecode.gumm.gummecore.EClassMapping;
-import com.googlecode.gumm.gummecore.EEnumMapping;
-import com.googlecode.gumm.gummecore.EcoreAlignment;
-import com.googlecode.gumm.gummecore.framework.io.GummEcoreIO;
+import com.googlecode.gumm.ecore.EClassMapping;
+import com.googlecode.gumm.ecore.EEnumMapping;
+import com.googlecode.gumm.ecore.EcoreAlignment;
+import com.googlecode.gumm.ecore.io.GummEcoreIO;
 
 
 public class EcoreAlignmentToDot {

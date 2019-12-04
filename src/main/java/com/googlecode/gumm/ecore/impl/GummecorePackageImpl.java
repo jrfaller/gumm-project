@@ -4,17 +4,17 @@
  *
  * $Id$
  */
-package com.googlecode.gumm.gummecore.impl;
+package com.googlecode.gumm.ecore.impl;
 
-import com.googlecode.gumm.gummecore.EAttributeMapping;
-import com.googlecode.gumm.gummecore.EClassMapping;
-import com.googlecode.gumm.gummecore.EDataTypeMapping;
-import com.googlecode.gumm.gummecore.EEnumLiteralMapping;
-import com.googlecode.gumm.gummecore.EEnumMapping;
-import com.googlecode.gumm.gummecore.EReferenceMapping;
-import com.googlecode.gumm.gummecore.EcoreAlignment;
-import com.googlecode.gumm.gummecore.GummecoreFactory;
-import com.googlecode.gumm.gummecore.GummecorePackage;
+import com.googlecode.gumm.ecore.EAttributeMapping;
+import com.googlecode.gumm.ecore.EClassMapping;
+import com.googlecode.gumm.ecore.EDataTypeMapping;
+import com.googlecode.gumm.ecore.EEnumLiteralMapping;
+import com.googlecode.gumm.ecore.EEnumMapping;
+import com.googlecode.gumm.ecore.EReferenceMapping;
+import com.googlecode.gumm.ecore.EcoreAlignment;
+import com.googlecode.gumm.ecore.GummecoreFactory;
+import com.googlecode.gumm.ecore.GummecorePackage;
 
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EPackage;
@@ -90,7 +90,7 @@ public class GummecorePackageImpl extends EPackageImpl implements GummecorePacka
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @see org.eclipse.emf.ecore.EPackage.Registry
-	 * @see com.googlecode.gumm.gummecore.GummecorePackage#eNS_URI
+	 * @see com.googlecode.gumm.ecore.GummecorePackage#eNS_URI
 	 * @see #init()
 	 * @generated
 	 */

@@ -4,29 +4,29 @@
  *
  * $Id$
  */
-package com.googlecode.gumm.gummecore;
+package com.googlecode.gumm.ecore;
 
-import org.eclipse.emf.ecore.EAttribute;
+import org.eclipse.emf.ecore.EEnumLiteral;
 import org.eclipse.emf.ecore.EObject;
 
 /**
  * <!-- begin-user-doc -->
- * A representation of the model object '<em><b>EAttribute Mapping</b></em>'.
+ * A representation of the model object '<em><b>EEnum Literal Mapping</b></em>'.
  * <!-- end-user-doc -->
  *
  * <p>
  * The following features are supported:
  * <ul>
- *   <li>{@link com.googlecode.gumm.gummecore.EAttributeMapping#getSource <em>Source</em>}</li>
- *   <li>{@link com.googlecode.gumm.gummecore.EAttributeMapping#getTarget <em>Target</em>}</li>
+ *   <li>{@link com.googlecode.gumm.ecore.EEnumLiteralMapping#getSource <em>Source</em>}</li>
+ *   <li>{@link com.googlecode.gumm.ecore.EEnumLiteralMapping#getTarget <em>Target</em>}</li>
  * </ul>
  * </p>
  *
- * @see com.googlecode.gumm.gummecore.GummecorePackage#getEAttributeMapping()
+ * @see com.googlecode.gumm.ecore.GummecorePackage#getEEnumLiteralMapping()
  * @model
  * @generated
  */
-public interface EAttributeMapping extends EObject {
+public interface EEnumLiteralMapping extends EObject {
 	/**
 	 * Returns the value of the '<em><b>Source</b></em>' reference.
 	 * <!-- begin-user-doc -->
@@ -36,22 +36,22 @@ public interface EAttributeMapping extends EObject {
 	 * </p>
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Source</em>' reference.
-	 * @see #setSource(EAttribute)
-	 * @see com.googlecode.gumm.gummecore.GummecorePackage#getEAttributeMapping_Source()
+	 * @see #setSource(EEnumLiteral)
+	 * @see com.googlecode.gumm.ecore.GummecorePackage#getEEnumLiteralMapping_Source()
 	 * @model required="true"
 	 * @generated
 	 */
-	EAttribute getSource();
+	EEnumLiteral getSource();
 
 	/**
-	 * Sets the value of the '{@link com.googlecode.gumm.gummecore.EAttributeMapping#getSource <em>Source</em>}' reference.
+	 * Sets the value of the '{@link com.googlecode.gumm.ecore.EEnumLiteralMapping#getSource <em>Source</em>}' reference.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Source</em>' reference.
 	 * @see #getSource()
 	 * @generated
 	 */
-	void setSource(EAttribute value);
+	void setSource(EEnumLiteral value);
 
 	/**
 	 * Returns the value of the '<em><b>Target</b></em>' reference.
@@ -62,21 +62,21 @@ public interface EAttributeMapping extends EObject {
 	 * </p>
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Target</em>' reference.
-	 * @see #setTarget(EAttribute)
-	 * @see com.googlecode.gumm.gummecore.GummecorePackage#getEAttributeMapping_Target()
+	 * @see #setTarget(EEnumLiteral)
+	 * @see com.googlecode.gumm.ecore.GummecorePackage#getEEnumLiteralMapping_Target()
 	 * @model required="true"
 	 * @generated
 	 */
-	EAttribute getTarget();
+	EEnumLiteral getTarget();
 
 	/**
-	 * Sets the value of the '{@link com.googlecode.gumm.gummecore.EAttributeMapping#getTarget <em>Target</em>}' reference.
+	 * Sets the value of the '{@link com.googlecode.gumm.ecore.EEnumLiteralMapping#getTarget <em>Target</em>}' reference.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Target</em>' reference.
 	 * @see #getTarget()
 	 * @generated
 	 */
-	void setTarget(EAttribute value);
+	void setTarget(EEnumLiteral value);
 
-} // EAttributeMapping
+} // EEnumLiteralMapping

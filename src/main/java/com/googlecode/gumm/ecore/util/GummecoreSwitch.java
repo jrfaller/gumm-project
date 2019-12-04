@@ -4,9 +4,9 @@
  *
  * $Id$
  */
-package com.googlecode.gumm.gummecore.util;
+package com.googlecode.gumm.ecore.util;
 
-import com.googlecode.gumm.gummecore.*;
+import com.googlecode.gumm.ecore.*;
 
 import java.util.List;
 
@@ -23,7 +23,7 @@ import org.eclipse.emf.ecore.EObject;
  * until a non-null result is returned,
  * which is the result of the switch.
  * <!-- end-user-doc -->
- * @see com.googlecode.gumm.gummecore.GummecorePackage
+ * @see com.googlecode.gumm.ecore.GummecorePackage
  * @generated
  */
 public class GummecoreSwitch<T> {

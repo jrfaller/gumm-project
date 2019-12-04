@@ -4,7 +4,7 @@
  *
  * $Id$
  */
-package com.googlecode.gumm.gummecore;
+package com.googlecode.gumm.ecore;
 
 import org.eclipse.emf.common.util.EList;
 
@@ -18,20 +18,20 @@ import org.eclipse.emf.ecore.EObject;
  * <p>
  * The following features are supported:
  * <ul>
- *   <li>{@link com.googlecode.gumm.gummecore.EcoreAlignment#getEClassMappings <em>EClass Mappings</em>}</li>
- *   <li>{@link com.googlecode.gumm.gummecore.EcoreAlignment#getEEnumMappings <em>EEnum Mappings</em>}</li>
- *   <li>{@link com.googlecode.gumm.gummecore.EcoreAlignment#getEDataTypeMappings <em>EData Type Mappings</em>}</li>
+ *   <li>{@link com.googlecode.gumm.ecore.EcoreAlignment#getEClassMappings <em>EClass Mappings</em>}</li>
+ *   <li>{@link com.googlecode.gumm.ecore.EcoreAlignment#getEEnumMappings <em>EEnum Mappings</em>}</li>
+ *   <li>{@link com.googlecode.gumm.ecore.EcoreAlignment#getEDataTypeMappings <em>EData Type Mappings</em>}</li>
  * </ul>
  * </p>
  *
- * @see com.googlecode.gumm.gummecore.GummecorePackage#getEcoreAlignment()
+ * @see com.googlecode.gumm.ecore.GummecorePackage#getEcoreAlignment()
  * @model
  * @generated
  */
 public interface EcoreAlignment extends EObject {
 	/**
 	 * Returns the value of the '<em><b>EClass Mappings</b></em>' containment reference list.
-	 * The list contents are of type {@link com.googlecode.gumm.gummecore.EClassMapping}.
+	 * The list contents are of type {@link com.googlecode.gumm.ecore.EClassMapping}.
 	 * <!-- begin-user-doc -->
 	 * <p>
 	 * If the meaning of the '<em>EClass Mappings</em>' containment reference list isn't clear,
@@ -39,7 +39,7 @@ public interface EcoreAlignment extends EObject {
 	 * </p>
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>EClass Mappings</em>' containment reference list.
-	 * @see com.googlecode.gumm.gummecore.GummecorePackage#getEcoreAlignment_EClassMappings()
+	 * @see com.googlecode.gumm.ecore.GummecorePackage#getEcoreAlignment_EClassMappings()
 	 * @model containment="true"
 	 * @generated
 	 */
@@ -47,7 +47,7 @@ public interface EcoreAlignment extends EObject {
 
 	/**
 	 * Returns the value of the '<em><b>EEnum Mappings</b></em>' containment reference list.
-	 * The list contents are of type {@link com.googlecode.gumm.gummecore.EEnumMapping}.
+	 * The list contents are of type {@link com.googlecode.gumm.ecore.EEnumMapping}.
 	 * <!-- begin-user-doc -->
 	 * <p>
 	 * If the meaning of the '<em>EEnum Mappings</em>' containment reference list isn't clear,
@@ -55,7 +55,7 @@ public interface EcoreAlignment extends EObject {
 	 * </p>
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>EEnum Mappings</em>' containment reference list.
-	 * @see com.googlecode.gumm.gummecore.GummecorePackage#getEcoreAlignment_EEnumMappings()
+	 * @see com.googlecode.gumm.ecore.GummecorePackage#getEcoreAlignment_EEnumMappings()
 	 * @model containment="true"
 	 * @generated
 	 */
@@ -63,7 +63,7 @@ public interface EcoreAlignment extends EObject {
 
 	/**
 	 * Returns the value of the '<em><b>EData Type Mappings</b></em>' containment reference list.
-	 * The list contents are of type {@link com.googlecode.gumm.gummecore.EDataTypeMapping}.
+	 * The list contents are of type {@link com.googlecode.gumm.ecore.EDataTypeMapping}.
 	 * <!-- begin-user-doc -->
 	 * <p>
 	 * If the meaning of the '<em>EData Type Mappings</em>' containment reference list isn't clear,
@@ -71,7 +71,7 @@ public interface EcoreAlignment extends EObject {
 	 * </p>
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>EData Type Mappings</em>' containment reference list.
-	 * @see com.googlecode.gumm.gummecore.GummecorePackage#getEcoreAlignment_EDataTypeMappings()
+	 * @see com.googlecode.gumm.ecore.GummecorePackage#getEcoreAlignment_EDataTypeMappings()
 	 * @model containment="true"
 	 * @generated
 	 */

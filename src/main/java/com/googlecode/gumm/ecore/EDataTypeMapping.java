@@ -4,7 +4,7 @@
  *
  * $Id$
  */
-package com.googlecode.gumm.gummecore;
+package com.googlecode.gumm.ecore;
 
 import org.eclipse.emf.ecore.EDataType;
 import org.eclipse.emf.ecore.EObject;
@@ -17,12 +17,12 @@ import org.eclipse.emf.ecore.EObject;
  * <p>
  * The following features are supported:
  * <ul>
- *   <li>{@link com.googlecode.gumm.gummecore.EDataTypeMapping#getSource <em>Source</em>}</li>
- *   <li>{@link com.googlecode.gumm.gummecore.EDataTypeMapping#getTarget <em>Target</em>}</li>
+ *   <li>{@link com.googlecode.gumm.ecore.EDataTypeMapping#getSource <em>Source</em>}</li>
+ *   <li>{@link com.googlecode.gumm.ecore.EDataTypeMapping#getTarget <em>Target</em>}</li>
  * </ul>
  * </p>
  *
- * @see com.googlecode.gumm.gummecore.GummecorePackage#getEDataTypeMapping()
+ * @see com.googlecode.gumm.ecore.GummecorePackage#getEDataTypeMapping()
  * @model
  * @generated
  */
@@ -37,14 +37,14 @@ public interface EDataTypeMapping extends EObject {
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Source</em>' reference.
 	 * @see #setSource(EDataType)
-	 * @see com.googlecode.gumm.gummecore.GummecorePackage#getEDataTypeMapping_Source()
+	 * @see com.googlecode.gumm.ecore.GummecorePackage#getEDataTypeMapping_Source()
 	 * @model required="true"
 	 * @generated
 	 */
 	EDataType getSource();
 
 	/**
-	 * Sets the value of the '{@link com.googlecode.gumm.gummecore.EDataTypeMapping#getSource <em>Source</em>}' reference.
+	 * Sets the value of the '{@link com.googlecode.gumm.ecore.EDataTypeMapping#getSource <em>Source</em>}' reference.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Source</em>' reference.
@@ -63,14 +63,14 @@ public interface EDataTypeMapping extends EObject {
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Target</em>' reference.
 	 * @see #setTarget(EDataType)
-	 * @see com.googlecode.gumm.gummecore.GummecorePackage#getEDataTypeMapping_Target()
+	 * @see com.googlecode.gumm.ecore.GummecorePackage#getEDataTypeMapping_Target()
 	 * @model required="true"
 	 * @generated
 	 */
 	EDataType getTarget();
 
 	/**
-	 * Sets the value of the '{@link com.googlecode.gumm.gummecore.EDataTypeMapping#getTarget <em>Target</em>}' reference.
+	 * Sets the value of the '{@link com.googlecode.gumm.ecore.EDataTypeMapping#getTarget <em>Target</em>}' reference.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Target</em>' reference.

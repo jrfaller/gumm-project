@@ -4,11 +4,11 @@
  *
  * $Id$
  */
-package com.googlecode.gumm.gummecore.impl;
+package com.googlecode.gumm.ecore.impl;
 
-import com.googlecode.gumm.gummecore.EEnumLiteralMapping;
-import com.googlecode.gumm.gummecore.EEnumMapping;
-import com.googlecode.gumm.gummecore.GummecorePackage;
+import com.googlecode.gumm.ecore.EEnumLiteralMapping;
+import com.googlecode.gumm.ecore.EEnumMapping;
+import com.googlecode.gumm.ecore.GummecorePackage;
 
 import java.util.Collection;
 
@@ -34,9 +34,9 @@ import org.eclipse.emf.ecore.util.InternalEList;
  * <p>
  * The following features are implemented:
  * <ul>
- *   <li>{@link com.googlecode.gumm.gummecore.impl.EEnumMappingImpl#getSource <em>Source</em>}</li>
- *   <li>{@link com.googlecode.gumm.gummecore.impl.EEnumMappingImpl#getTarget <em>Target</em>}</li>
- *   <li>{@link com.googlecode.gumm.gummecore.impl.EEnumMappingImpl#getEEnumLiteralMappings <em>EEnum Literal Mappings</em>}</li>
+ *   <li>{@link com.googlecode.gumm.ecore.impl.EEnumMappingImpl#getSource <em>Source</em>}</li>
+ *   <li>{@link com.googlecode.gumm.ecore.impl.EEnumMappingImpl#getTarget <em>Target</em>}</li>
+ *   <li>{@link com.googlecode.gumm.ecore.impl.EEnumMappingImpl#getEEnumLiteralMappings <em>EEnum Literal Mappings</em>}</li>
  * </ul>
  * </p>
  *

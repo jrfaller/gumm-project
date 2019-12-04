@@ -4,15 +4,15 @@
  *
  * $Id$
  */
-package com.googlecode.gumm.gummecore.impl;
+package com.googlecode.gumm.ecore.impl;
 
-import com.googlecode.gumm.gummecore.EAttributeMapping;
-import com.googlecode.gumm.gummecore.GummecorePackage;
+import com.googlecode.gumm.ecore.EReferenceMapping;
+import com.googlecode.gumm.ecore.GummecorePackage;
 
 import org.eclipse.emf.common.notify.Notification;
 
-import org.eclipse.emf.ecore.EAttribute;
 import org.eclipse.emf.ecore.EClass;
+import org.eclipse.emf.ecore.EReference;
 import org.eclipse.emf.ecore.InternalEObject;
 
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
@@ -20,19 +20,19 @@ import org.eclipse.emf.ecore.impl.EObjectImpl;
 
 /**
  * <!-- begin-user-doc -->
- * An implementation of the model object '<em><b>EAttribute Mapping</b></em>'.
+ * An implementation of the model object '<em><b>EReference Mapping</b></em>'.
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
  * <ul>
- *   <li>{@link com.googlecode.gumm.gummecore.impl.EAttributeMappingImpl#getSource <em>Source</em>}</li>
- *   <li>{@link com.googlecode.gumm.gummecore.impl.EAttributeMappingImpl#getTarget <em>Target</em>}</li>
+ *   <li>{@link com.googlecode.gumm.ecore.impl.EReferenceMappingImpl#getSource <em>Source</em>}</li>
+ *   <li>{@link com.googlecode.gumm.ecore.impl.EReferenceMappingImpl#getTarget <em>Target</em>}</li>
  * </ul>
  * </p>
  *
  * @generated
  */
-public class EAttributeMappingImpl extends EObjectImpl implements EAttributeMapping {
+public class EReferenceMappingImpl extends EObjectImpl implements EReferenceMapping {
 	/**
 	 * The cached value of the '{@link #getSource() <em>Source</em>}' reference.
 	 * <!-- begin-user-doc -->
@@ -41,7 +41,7 @@ public class EAttributeMappingImpl extends EObjectImpl implements EAttributeMapp
 	 * @generated
 	 * @ordered
 	 */
-	protected EAttribute source;
+	protected EReference source;
 
 	/**
 	 * The cached value of the '{@link #getTarget() <em>Target</em>}' reference.
@@ -51,14 +51,14 @@ public class EAttributeMappingImpl extends EObjectImpl implements EAttributeMapp
 	 * @generated
 	 * @ordered
 	 */
-	protected EAttribute target;
+	protected EReference target;
 
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected EAttributeMappingImpl() {
+	protected EReferenceMappingImpl() {
 		super();
 	}
 
@@ -69,7 +69,7 @@ public class EAttributeMappingImpl extends EObjectImpl implements EAttributeMapp
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return GummecorePackage.Literals.EATTRIBUTE_MAPPING;
+		return GummecorePackage.Literals.EREFERENCE_MAPPING;
 	}
 
 	/**
@@ -77,13 +77,13 @@ public class EAttributeMappingImpl extends EObjectImpl implements EAttributeMapp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EAttribute getSource() {
+	public EReference getSource() {
 		if (source != null && source.eIsProxy()) {
 			InternalEObject oldSource = (InternalEObject)source;
-			source = (EAttribute)eResolveProxy(oldSource);
+			source = (EReference)eResolveProxy(oldSource);
 			if (source != oldSource) {
 				if (eNotificationRequired())
-					eNotify(new ENotificationImpl(this, Notification.RESOLVE, GummecorePackage.EATTRIBUTE_MAPPING__SOURCE, oldSource, source));
+					eNotify(new ENotificationImpl(this, Notification.RESOLVE, GummecorePackage.EREFERENCE_MAPPING__SOURCE, oldSource, source));
 			}
 		}
 		return source;
@@ -94,7 +94,7 @@ public class EAttributeMappingImpl extends EObjectImpl implements EAttributeMapp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EAttribute basicGetSource() {
+	public EReference basicGetSource() {
 		return source;
 	}
 
@@ -103,11 +103,11 @@ public class EAttributeMappingImpl extends EObjectImpl implements EAttributeMapp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setSource(EAttribute newSource) {
-		EAttribute oldSource = source;
+	public void setSource(EReference newSource) {
+		EReference oldSource = source;
 		source = newSource;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, GummecorePackage.EATTRIBUTE_MAPPING__SOURCE, oldSource, source));
+			eNotify(new ENotificationImpl(this, Notification.SET, GummecorePackage.EREFERENCE_MAPPING__SOURCE, oldSource, source));
 	}
 
 	/**
@@ -115,13 +115,13 @@ public class EAttributeMappingImpl extends EObjectImpl implements EAttributeMapp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EAttribute getTarget() {
+	public EReference getTarget() {
 		if (target != null && target.eIsProxy()) {
 			InternalEObject oldTarget = (InternalEObject)target;
-			target = (EAttribute)eResolveProxy(oldTarget);
+			target = (EReference)eResolveProxy(oldTarget);
 			if (target != oldTarget) {
 				if (eNotificationRequired())
-					eNotify(new ENotificationImpl(this, Notification.RESOLVE, GummecorePackage.EATTRIBUTE_MAPPING__TARGET, oldTarget, target));
+					eNotify(new ENotificationImpl(this, Notification.RESOLVE, GummecorePackage.EREFERENCE_MAPPING__TARGET, oldTarget, target));
 			}
 		}
 		return target;
@@ -132,7 +132,7 @@ public class EAttributeMappingImpl extends EObjectImpl implements EAttributeMapp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EAttribute basicGetTarget() {
+	public EReference basicGetTarget() {
 		return target;
 	}
 
@@ -141,11 +141,11 @@ public class EAttributeMappingImpl extends EObjectImpl implements EAttributeMapp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setTarget(EAttribute newTarget) {
-		EAttribute oldTarget = target;
+	public void setTarget(EReference newTarget) {
+		EReference oldTarget = target;
 		target = newTarget;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, GummecorePackage.EATTRIBUTE_MAPPING__TARGET, oldTarget, target));
+			eNotify(new ENotificationImpl(this, Notification.SET, GummecorePackage.EREFERENCE_MAPPING__TARGET, oldTarget, target));
 	}
 
 	/**
@@ -156,10 +156,10 @@ public class EAttributeMappingImpl extends EObjectImpl implements EAttributeMapp
 	@Override
 	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
-			case GummecorePackage.EATTRIBUTE_MAPPING__SOURCE:
+			case GummecorePackage.EREFERENCE_MAPPING__SOURCE:
 				if (resolve) return getSource();
 				return basicGetSource();
-			case GummecorePackage.EATTRIBUTE_MAPPING__TARGET:
+			case GummecorePackage.EREFERENCE_MAPPING__TARGET:
 				if (resolve) return getTarget();
 				return basicGetTarget();
 		}
@@ -174,11 +174,11 @@ public class EAttributeMappingImpl extends EObjectImpl implements EAttributeMapp
 	@Override
 	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
-			case GummecorePackage.EATTRIBUTE_MAPPING__SOURCE:
-				setSource((EAttribute)newValue);
+			case GummecorePackage.EREFERENCE_MAPPING__SOURCE:
+				setSource((EReference)newValue);
 				return;
-			case GummecorePackage.EATTRIBUTE_MAPPING__TARGET:
-				setTarget((EAttribute)newValue);
+			case GummecorePackage.EREFERENCE_MAPPING__TARGET:
+				setTarget((EReference)newValue);
 				return;
 		}
 		super.eSet(featureID, newValue);
@@ -192,11 +192,11 @@ public class EAttributeMappingImpl extends EObjectImpl implements EAttributeMapp
 	@Override
 	public void eUnset(int featureID) {
 		switch (featureID) {
-			case GummecorePackage.EATTRIBUTE_MAPPING__SOURCE:
-				setSource((EAttribute)null);
+			case GummecorePackage.EREFERENCE_MAPPING__SOURCE:
+				setSource((EReference)null);
 				return;
-			case GummecorePackage.EATTRIBUTE_MAPPING__TARGET:
-				setTarget((EAttribute)null);
+			case GummecorePackage.EREFERENCE_MAPPING__TARGET:
+				setTarget((EReference)null);
 				return;
 		}
 		super.eUnset(featureID);
@@ -210,12 +210,12 @@ public class EAttributeMappingImpl extends EObjectImpl implements EAttributeMapp
 	@Override
 	public boolean eIsSet(int featureID) {
 		switch (featureID) {
-			case GummecorePackage.EATTRIBUTE_MAPPING__SOURCE:
+			case GummecorePackage.EREFERENCE_MAPPING__SOURCE:
 				return source != null;
-			case GummecorePackage.EATTRIBUTE_MAPPING__TARGET:
+			case GummecorePackage.EREFERENCE_MAPPING__TARGET:
 				return target != null;
 		}
 		return super.eIsSet(featureID);
 	}
 
-} //EAttributeMappingImpl
+} //EReferenceMappingImpl

@@ -4,9 +4,9 @@
  *
  * $Id$
  */
-package com.googlecode.gumm.gummecore.util;
+package com.googlecode.gumm.ecore.util;
 
-import com.googlecode.gumm.gummecore.*;
+import com.googlecode.gumm.ecore.*;
 
 import org.eclipse.emf.common.notify.Adapter;
 import org.eclipse.emf.common.notify.Notifier;
@@ -20,7 +20,7 @@ import org.eclipse.emf.ecore.EObject;
  * The <b>Adapter Factory</b> for the model.
  * It provides an adapter <code>createXXX</code> method for each class of the model.
  * <!-- end-user-doc -->
- * @see com.googlecode.gumm.gummecore.GummecorePackage
+ * @see com.googlecode.gumm.ecore.GummecorePackage
  * @generated
  */
 public class GummecoreAdapterFactory extends AdapterFactoryImpl {
@@ -120,13 +120,13 @@ public class GummecoreAdapterFactory extends AdapterFactoryImpl {
 
 
 	/**
-	 * Creates a new adapter for an object of class '{@link com.googlecode.gumm.gummecore.EcoreAlignment <em>Ecore Alignment</em>}'.
+	 * Creates a new adapter for an object of class '{@link com.googlecode.gumm.ecore.EcoreAlignment <em>Ecore Alignment</em>}'.
 	 * <!-- begin-user-doc -->
 	 * This default implementation returns null so that we can easily ignore cases;
 	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
 	 * <!-- end-user-doc -->
 	 * @return the new adapter.
-	 * @see com.googlecode.gumm.gummecore.EcoreAlignment
+	 * @see com.googlecode.gumm.ecore.EcoreAlignment
 	 * @generated
 	 */
 	public Adapter createEcoreAlignmentAdapter() {
@@ -134,13 +134,13 @@ public class GummecoreAdapterFactory extends AdapterFactoryImpl {
 	}
 
 	/**
-	 * Creates a new adapter for an object of class '{@link com.googlecode.gumm.gummecore.EClassMapping <em>EClass Mapping</em>}'.
+	 * Creates a new adapter for an object of class '{@link com.googlecode.gumm.ecore.EClassMapping <em>EClass Mapping</em>}'.
 	 * <!-- begin-user-doc -->
 	 * This default implementation returns null so that we can easily ignore cases;
 	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
 	 * <!-- end-user-doc -->
 	 * @return the new adapter.
-	 * @see com.googlecode.gumm.gummecore.EClassMapping
+	 * @see com.googlecode.gumm.ecore.EClassMapping
 	 * @generated
 	 */
 	public Adapter createEClassMappingAdapter() {
@@ -148,13 +148,13 @@ public class GummecoreAdapterFactory extends AdapterFactoryImpl {
 	}
 
 	/**
-	 * Creates a new adapter for an object of class '{@link com.googlecode.gumm.gummecore.EAttributeMapping <em>EAttribute Mapping</em>}'.
+	 * Creates a new adapter for an object of class '{@link com.googlecode.gumm.ecore.EAttributeMapping <em>EAttribute Mapping</em>}'.
 	 * <!-- begin-user-doc -->
 	 * This default implementation returns null so that we can easily ignore cases;
 	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
 	 * <!-- end-user-doc -->
 	 * @return the new adapter.
-	 * @see com.googlecode.gumm.gummecore.EAttributeMapping
+	 * @see com.googlecode.gumm.ecore.EAttributeMapping
 	 * @generated
 	 */
 	public Adapter createEAttributeMappingAdapter() {
@@ -162,13 +162,13 @@ public class GummecoreAdapterFactory extends AdapterFactoryImpl {
 	}
 
 	/**
-	 * Creates a new adapter for an object of class '{@link com.googlecode.gumm.gummecore.EReferenceMapping <em>EReference Mapping</em>}'.
+	 * Creates a new adapter for an object of class '{@link com.googlecode.gumm.ecore.EReferenceMapping <em>EReference Mapping</em>}'.
 	 * <!-- begin-user-doc -->
 	 * This default implementation returns null so that we can easily ignore cases;
 	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
 	 * <!-- end-user-doc -->
 	 * @return the new adapter.
-	 * @see com.googlecode.gumm.gummecore.EReferenceMapping
+	 * @see com.googlecode.gumm.ecore.EReferenceMapping
 	 * @generated
 	 */
 	public Adapter createEReferenceMappingAdapter() {
@@ -176,13 +176,13 @@ public class GummecoreAdapterFactory extends AdapterFactoryImpl {
 	}
 
 	/**
-	 * Creates a new adapter for an object of class '{@link com.googlecode.gumm.gummecore.EEnumMapping <em>EEnum Mapping</em>}'.
+	 * Creates a new adapter for an object of class '{@link com.googlecode.gumm.ecore.EEnumMapping <em>EEnum Mapping</em>}'.
 	 * <!-- begin-user-doc -->
 	 * This default implementation returns null so that we can easily ignore cases;
 	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
 	 * <!-- end-user-doc -->
 	 * @return the new adapter.
-	 * @see com.googlecode.gumm.gummecore.EEnumMapping
+	 * @see com.googlecode.gumm.ecore.EEnumMapping
 	 * @generated
 	 */
 	public Adapter createEEnumMappingAdapter() {
@@ -190,13 +190,13 @@ public class GummecoreAdapterFactory extends AdapterFactoryImpl {
 	}
 
 	/**
-	 * Creates a new adapter for an object of class '{@link com.googlecode.gumm.gummecore.EEnumLiteralMapping <em>EEnum Literal Mapping</em>}'.
+	 * Creates a new adapter for an object of class '{@link com.googlecode.gumm.ecore.EEnumLiteralMapping <em>EEnum Literal Mapping</em>}'.
 	 * <!-- begin-user-doc -->
 	 * This default implementation returns null so that we can easily ignore cases;
 	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
 	 * <!-- end-user-doc -->
 	 * @return the new adapter.
-	 * @see com.googlecode.gumm.gummecore.EEnumLiteralMapping
+	 * @see com.googlecode.gumm.ecore.EEnumLiteralMapping
 	 * @generated
 	 */
 	public Adapter createEEnumLiteralMappingAdapter() {
@@ -204,13 +204,13 @@ public class GummecoreAdapterFactory extends AdapterFactoryImpl {
 	}
 
 	/**
-	 * Creates a new adapter for an object of class '{@link com.googlecode.gumm.gummecore.EDataTypeMapping <em>EData Type Mapping</em>}'.
+	 * Creates a new adapter for an object of class '{@link com.googlecode.gumm.ecore.EDataTypeMapping <em>EData Type Mapping</em>}'.
 	 * <!-- begin-user-doc -->
 	 * This default implementation returns null so that we can easily ignore cases;
 	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
 	 * <!-- end-user-doc -->
 	 * @return the new adapter.
-	 * @see com.googlecode.gumm.gummecore.EDataTypeMapping
+	 * @see com.googlecode.gumm.ecore.EDataTypeMapping
 	 * @generated
 	 */
 	public Adapter createEDataTypeMappingAdapter() {

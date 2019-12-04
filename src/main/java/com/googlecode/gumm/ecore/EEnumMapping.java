@@ -4,7 +4,7 @@
  *
  * $Id$
  */
-package com.googlecode.gumm.gummecore;
+package com.googlecode.gumm.ecore;
 
 import org.eclipse.emf.common.util.EList;
 
@@ -19,13 +19,13 @@ import org.eclipse.emf.ecore.EObject;
  * <p>
  * The following features are supported:
  * <ul>
- *   <li>{@link com.googlecode.gumm.gummecore.EEnumMapping#getSource <em>Source</em>}</li>
- *   <li>{@link com.googlecode.gumm.gummecore.EEnumMapping#getTarget <em>Target</em>}</li>
- *   <li>{@link com.googlecode.gumm.gummecore.EEnumMapping#getEEnumLiteralMappings <em>EEnum Literal Mappings</em>}</li>
+ *   <li>{@link com.googlecode.gumm.ecore.EEnumMapping#getSource <em>Source</em>}</li>
+ *   <li>{@link com.googlecode.gumm.ecore.EEnumMapping#getTarget <em>Target</em>}</li>
+ *   <li>{@link com.googlecode.gumm.ecore.EEnumMapping#getEEnumLiteralMappings <em>EEnum Literal Mappings</em>}</li>
  * </ul>
  * </p>
  *
- * @see com.googlecode.gumm.gummecore.GummecorePackage#getEEnumMapping()
+ * @see com.googlecode.gumm.ecore.GummecorePackage#getEEnumMapping()
  * @model
  * @generated
  */
@@ -40,14 +40,14 @@ public interface EEnumMapping extends EObject {
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Source</em>' reference.
 	 * @see #setSource(EEnum)
-	 * @see com.googlecode.gumm.gummecore.GummecorePackage#getEEnumMapping_Source()
+	 * @see com.googlecode.gumm.ecore.GummecorePackage#getEEnumMapping_Source()
 	 * @model required="true"
 	 * @generated
 	 */
 	EEnum getSource();
 
 	/**
-	 * Sets the value of the '{@link com.googlecode.gumm.gummecore.EEnumMapping#getSource <em>Source</em>}' reference.
+	 * Sets the value of the '{@link com.googlecode.gumm.ecore.EEnumMapping#getSource <em>Source</em>}' reference.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Source</em>' reference.
@@ -66,14 +66,14 @@ public interface EEnumMapping extends EObject {
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Target</em>' reference.
 	 * @see #setTarget(EEnum)
-	 * @see com.googlecode.gumm.gummecore.GummecorePackage#getEEnumMapping_Target()
+	 * @see com.googlecode.gumm.ecore.GummecorePackage#getEEnumMapping_Target()
 	 * @model required="true"
 	 * @generated
 	 */
 	EEnum getTarget();
 
 	/**
-	 * Sets the value of the '{@link com.googlecode.gumm.gummecore.EEnumMapping#getTarget <em>Target</em>}' reference.
+	 * Sets the value of the '{@link com.googlecode.gumm.ecore.EEnumMapping#getTarget <em>Target</em>}' reference.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Target</em>' reference.
@@ -84,7 +84,7 @@ public interface EEnumMapping extends EObject {
 
 	/**
 	 * Returns the value of the '<em><b>EEnum Literal Mappings</b></em>' containment reference list.
-	 * The list contents are of type {@link com.googlecode.gumm.gummecore.EEnumLiteralMapping}.
+	 * The list contents are of type {@link com.googlecode.gumm.ecore.EEnumLiteralMapping}.
 	 * <!-- begin-user-doc -->
 	 * <p>
 	 * If the meaning of the '<em>EEnum Literal Mappings</em>' containment reference list isn't clear,
@@ -92,7 +92,7 @@ public interface EEnumMapping extends EObject {
 	 * </p>
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>EEnum Literal Mappings</em>' containment reference list.
-	 * @see com.googlecode.gumm.gummecore.GummecorePackage#getEEnumMapping_EEnumLiteralMappings()
+	 * @see com.googlecode.gumm.ecore.GummecorePackage#getEEnumMapping_EEnumLiteralMappings()
 	 * @model containment="true"
 	 * @generated
 	 */

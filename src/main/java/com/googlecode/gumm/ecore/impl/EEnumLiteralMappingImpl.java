@@ -4,15 +4,15 @@
  *
  * $Id$
  */
-package com.googlecode.gumm.gummecore.impl;
+package com.googlecode.gumm.ecore.impl;
 
-import com.googlecode.gumm.gummecore.EReferenceMapping;
-import com.googlecode.gumm.gummecore.GummecorePackage;
+import com.googlecode.gumm.ecore.EEnumLiteralMapping;
+import com.googlecode.gumm.ecore.GummecorePackage;
 
 import org.eclipse.emf.common.notify.Notification;
 
 import org.eclipse.emf.ecore.EClass;
-import org.eclipse.emf.ecore.EReference;
+import org.eclipse.emf.ecore.EEnumLiteral;
 import org.eclipse.emf.ecore.InternalEObject;
 
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
@@ -20,19 +20,19 @@ import org.eclipse.emf.ecore.impl.EObjectImpl;
 
 /**
  * <!-- begin-user-doc -->
- * An implementation of the model object '<em><b>EReference Mapping</b></em>'.
+ * An implementation of the model object '<em><b>EEnum Literal Mapping</b></em>'.
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
  * <ul>
- *   <li>{@link com.googlecode.gumm.gummecore.impl.EReferenceMappingImpl#getSource <em>Source</em>}</li>
- *   <li>{@link com.googlecode.gumm.gummecore.impl.EReferenceMappingImpl#getTarget <em>Target</em>}</li>
+ *   <li>{@link com.googlecode.gumm.ecore.impl.EEnumLiteralMappingImpl#getSource <em>Source</em>}</li>
+ *   <li>{@link com.googlecode.gumm.ecore.impl.EEnumLiteralMappingImpl#getTarget <em>Target</em>}</li>
  * </ul>
  * </p>
  *
  * @generated
  */
-public class EReferenceMappingImpl extends EObjectImpl implements EReferenceMapping {
+public class EEnumLiteralMappingImpl extends EObjectImpl implements EEnumLiteralMapping {
 	/**
 	 * The cached value of the '{@link #getSource() <em>Source</em>}' reference.
 	 * <!-- begin-user-doc -->
@@ -41,7 +41,7 @@ public class EReferenceMappingImpl extends EObjectImpl implements EReferenceMapp
 	 * @generated
 	 * @ordered
 	 */
-	protected EReference source;
+	protected EEnumLiteral source;
 
 	/**
 	 * The cached value of the '{@link #getTarget() <em>Target</em>}' reference.
@@ -51,14 +51,14 @@ public class EReferenceMappingImpl extends EObjectImpl implements EReferenceMapp
 	 * @generated
 	 * @ordered
 	 */
-	protected EReference target;
+	protected EEnumLiteral target;
 
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected EReferenceMappingImpl() {
+	protected EEnumLiteralMappingImpl() {
 		super();
 	}
 
@@ -69,7 +69,7 @@ public class EReferenceMappingImpl extends EObjectImpl implements EReferenceMapp
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return GummecorePackage.Literals.EREFERENCE_MAPPING;
+		return GummecorePackage.Literals.EENUM_LITERAL_MAPPING;
 	}
 
 	/**
@@ -77,13 +77,13 @@ public class EReferenceMappingImpl extends EObjectImpl implements EReferenceMapp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference getSource() {
+	public EEnumLiteral getSource() {
 		if (source != null && source.eIsProxy()) {
 			InternalEObject oldSource = (InternalEObject)source;
-			source = (EReference)eResolveProxy(oldSource);
+			source = (EEnumLiteral)eResolveProxy(oldSource);
 			if (source != oldSource) {
 				if (eNotificationRequired())
-					eNotify(new ENotificationImpl(this, Notification.RESOLVE, GummecorePackage.EREFERENCE_MAPPING__SOURCE, oldSource, source));
+					eNotify(new ENotificationImpl(this, Notification.RESOLVE, GummecorePackage.EENUM_LITERAL_MAPPING__SOURCE, oldSource, source));
 			}
 		}
 		return source;
@@ -94,7 +94,7 @@ public class EReferenceMappingImpl extends EObjectImpl implements EReferenceMapp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference basicGetSource() {
+	public EEnumLiteral basicGetSource() {
 		return source;
 	}
 
@@ -103,11 +103,11 @@ public class EReferenceMappingImpl extends EObjectImpl implements EReferenceMapp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setSource(EReference newSource) {
-		EReference oldSource = source;
+	public void setSource(EEnumLiteral newSource) {
+		EEnumLiteral oldSource = source;
 		source = newSource;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, GummecorePackage.EREFERENCE_MAPPING__SOURCE, oldSource, source));
+			eNotify(new ENotificationImpl(this, Notification.SET, GummecorePackage.EENUM_LITERAL_MAPPING__SOURCE, oldSource, source));
 	}
 
 	/**
@@ -115,13 +115,13 @@ public class EReferenceMappingImpl extends EObjectImpl implements EReferenceMapp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference getTarget() {
+	public EEnumLiteral getTarget() {
 		if (target != null && target.eIsProxy()) {
 			InternalEObject oldTarget = (InternalEObject)target;
-			target = (EReference)eResolveProxy(oldTarget);
+			target = (EEnumLiteral)eResolveProxy(oldTarget);
 			if (target != oldTarget) {
 				if (eNotificationRequired())
-					eNotify(new ENotificationImpl(this, Notification.RESOLVE, GummecorePackage.EREFERENCE_MAPPING__TARGET, oldTarget, target));
+					eNotify(new ENotificationImpl(this, Notification.RESOLVE, GummecorePackage.EENUM_LITERAL_MAPPING__TARGET, oldTarget, target));
 			}
 		}
 		return target;
@@ -132,7 +132,7 @@ public class EReferenceMappingImpl extends EObjectImpl implements EReferenceMapp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference basicGetTarget() {
+	public EEnumLiteral basicGetTarget() {
 		return target;
 	}
 
@@ -141,11 +141,11 @@ public class EReferenceMappingImpl extends EObjectImpl implements EReferenceMapp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setTarget(EReference newTarget) {
-		EReference oldTarget = target;
+	public void setTarget(EEnumLiteral newTarget) {
+		EEnumLiteral oldTarget = target;
 		target = newTarget;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, GummecorePackage.EREFERENCE_MAPPING__TARGET, oldTarget, target));
+			eNotify(new ENotificationImpl(this, Notification.SET, GummecorePackage.EENUM_LITERAL_MAPPING__TARGET, oldTarget, target));
 	}
 
 	/**
@@ -156,10 +156,10 @@ public class EReferenceMappingImpl extends EObjectImpl implements EReferenceMapp
 	@Override
 	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
-			case GummecorePackage.EREFERENCE_MAPPING__SOURCE:
+			case GummecorePackage.EENUM_LITERAL_MAPPING__SOURCE:
 				if (resolve) return getSource();
 				return basicGetSource();
-			case GummecorePackage.EREFERENCE_MAPPING__TARGET:
+			case GummecorePackage.EENUM_LITERAL_MAPPING__TARGET:
 				if (resolve) return getTarget();
 				return basicGetTarget();
 		}
@@ -174,11 +174,11 @@ public class EReferenceMappingImpl extends EObjectImpl implements EReferenceMapp
 	@Override
 	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
-			case GummecorePackage.EREFERENCE_MAPPING__SOURCE:
-				setSource((EReference)newValue);
+			case GummecorePackage.EENUM_LITERAL_MAPPING__SOURCE:
+				setSource((EEnumLiteral)newValue);
 				return;
-			case GummecorePackage.EREFERENCE_MAPPING__TARGET:
-				setTarget((EReference)newValue);
+			case GummecorePackage.EENUM_LITERAL_MAPPING__TARGET:
+				setTarget((EEnumLiteral)newValue);
 				return;
 		}
 		super.eSet(featureID, newValue);
@@ -192,11 +192,11 @@ public class EReferenceMappingImpl extends EObjectImpl implements EReferenceMapp
 	@Override
 	public void eUnset(int featureID) {
 		switch (featureID) {
-			case GummecorePackage.EREFERENCE_MAPPING__SOURCE:
-				setSource((EReference)null);
+			case GummecorePackage.EENUM_LITERAL_MAPPING__SOURCE:
+				setSource((EEnumLiteral)null);
 				return;
-			case GummecorePackage.EREFERENCE_MAPPING__TARGET:
-				setTarget((EReference)null);
+			case GummecorePackage.EENUM_LITERAL_MAPPING__TARGET:
+				setTarget((EEnumLiteral)null);
 				return;
 		}
 		super.eUnset(featureID);
@@ -210,12 +210,12 @@ public class EReferenceMappingImpl extends EObjectImpl implements EReferenceMapp
 	@Override
 	public boolean eIsSet(int featureID) {
 		switch (featureID) {
-			case GummecorePackage.EREFERENCE_MAPPING__SOURCE:
+			case GummecorePackage.EENUM_LITERAL_MAPPING__SOURCE:
 				return source != null;
-			case GummecorePackage.EREFERENCE_MAPPING__TARGET:
+			case GummecorePackage.EENUM_LITERAL_MAPPING__TARGET:
 				return target != null;
 		}
 		return super.eIsSet(featureID);
 	}
 
-} //EReferenceMappingImpl
+} //EEnumLiteralMappingImpl
